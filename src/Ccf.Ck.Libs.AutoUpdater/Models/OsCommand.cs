@@ -16,7 +16,7 @@
         /// <summary>
         /// Init a ProcessStartInfo with Arguments
         /// e.g. Linux: Arguments = $"-c \"{escapedArgs}\""
-        /// e.g. Windows Arguments = $"\c \"{escapedArgs}\""
+        /// e.g. Windows Arguments = $"/c \"{escapedArgs}\""
         /// </summary>
         public string Arguments { get; set; }
     }
