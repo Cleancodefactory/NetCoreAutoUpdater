@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <!-- Nuget specific tags -->
+  <PropertyGroup>
+    <!-- Description and Release notes -->
+    <Description>.Net Core implementation of a self updating component which even updates the updater itself. By implementing a simple interface in your code and referencing a Nuget package you enable your application (desktop or Web) for self updating.</Description>
+    <PackageProjectUrl>https://github.com/cleancodefactory/netcoreautoupdater</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/cleancodefactory/netcoreautoupdater</RepositoryUrl>
+    <PackageTags>auto updater self update click once</PackageTags>
+    <PackageReleaseNotes>
+      - Version 1.0.0: Initial implemtation 
+    </PackageReleaseNotes>
+    <!-- Description and Release notes -->
+  </PropertyGroup>
+
+</Project>
