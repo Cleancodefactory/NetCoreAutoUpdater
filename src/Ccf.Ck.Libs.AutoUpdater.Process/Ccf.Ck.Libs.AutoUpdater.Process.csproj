@@ -13,7 +13,7 @@
     <RepositoryUrl>https://github.com/cleancodefactory/netcoreautoupdater</RepositoryUrl>
     <PackageTags>auto updater self update click once</PackageTags>
     <PackageReleaseNotes>
-      - Version 1.0.0: Initial implemtation 
+      - Version 1.0.0: Initial implementation 
     </PackageReleaseNotes>
     <!-- Description and Release notes -->
   </PropertyGroup>
