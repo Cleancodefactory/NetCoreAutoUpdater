@@ -164,7 +164,7 @@ namespace Ccf.Ck.Libs.AutoUpdater.Process
             }
             catch (Exception ex)
             {
-                Log($"Process with name {process?.ProcessName} threw exception: {ex.Message}");
+                Log($"Process with Id {pid} threw exception: {ex.Message}");
             }
         }
     }

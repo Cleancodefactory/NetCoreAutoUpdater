@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -13,7 +13,8 @@
     <RepositoryUrl>https://github.com/cleancodefactory/netcoreautoupdater</RepositoryUrl>
     <PackageTags>auto updater self update click once</PackageTags>
     <PackageReleaseNotes>
-      - Version 1.0.0: Initial implementation 
+      - Version 1.0.0: Initial implementation
+      - Version 1.0.1: Fix bug when process id doesn't exist (logger will show process id and not process name)
     </PackageReleaseNotes>
     <!-- Description and Release notes -->
   </PropertyGroup>
