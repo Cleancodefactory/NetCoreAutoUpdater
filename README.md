@@ -20,13 +20,14 @@ dotnet add package Ccf.Ck.Libs.AutoUpdater.Process
 ### Prerequisites
 You will need an URL to a remote folder containing:
 1. .zip archive with the updated version.
-2. .json file - 
+2. `version.json` file - 
 ```json
 {
   	"TargetVersion": "<Version>",
 	"UrlZipFile": "<Name>.zip"
 }
 ```
+**NB**: The file has to be exactly  **version.json** and **semantic versioning** must be used!
 
 ### Usage
 1. Implement IAutoUpdate interface:
