@@ -4,7 +4,7 @@
 .Net Core implementation of a self updating component which even updates the updater itself.
 
 ## Installation
-You can get the source code from the current releases or install 
+You can get the source code from the current [releases](https://github.com/Cleancodefactory/NetCoreAutoUpdater/releases) or install 
 __NetCoreAutoUpdater__  as a NuGet package:
 ```
 PM> Install-Package Ccf.Ck.Libs.AutoUpdater
