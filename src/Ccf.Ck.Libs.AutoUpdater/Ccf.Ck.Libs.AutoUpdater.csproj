@@ -13,6 +13,7 @@
     <PackageTags>auto updater self update click once</PackageTags>
     <PackageReleaseNotes>
       - Version 1.0.0: Initial implementation 
+      - Version 1.0.1: Fix bug in method documentation (Windows Arguments = $"/c \"{escapedArgs}\"") 
     </PackageReleaseNotes>
     <!-- Description and Release notes -->
   </PropertyGroup>
