@@ -77,14 +77,8 @@ namespace Ccf.Ck.Libs.AutoUpdater.Process
             }
         }
 
-        internal bool HasStartCommand()
-        {
-            return !string.IsNullOrEmpty(StartCommandFileName);
-        }
+        internal bool HasStartCommand() => !string.IsNullOrEmpty(StartCommandFileName);
 
-        internal bool HasStopCommand()
-        {
-            return !string.IsNullOrEmpty(StopCommandFileName);
-        }
+        internal bool HasStopCommand() => !string.IsNullOrEmpty(StopCommandFileName);
     }
 }

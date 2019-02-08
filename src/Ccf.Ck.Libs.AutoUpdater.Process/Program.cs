@@ -8,6 +8,7 @@ namespace Ccf.Ck.Libs.AutoUpdater.Process
     {
         private static DirectoryInfo _TargetDirInfo;
         private const string AUTOUPDATER_PROCESS_EXEC = "Ccf.Ck.Libs.AutoUpdater.Process";
+
         static void Main(string[] args)
         {
             InParams inParams = new InParams();

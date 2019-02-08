@@ -1,8 +1,7 @@
 {
   "profiles": {
     "Ccf.Ck.Libs.AutoUpdater.Process": {
-      "commandName": "Project",
-      "commandLineArgs": "\"1623\" \"E:\\Users\\rtanev\\AppData\\Local\\Temp\\KraftAgent\" \"C:\\Program Files (x86)\\KraftAgent\" \"sc stop KraftAgent\" \"sc start KraftAgent\""
+      "commandName": "Project"
     }
   }
 }

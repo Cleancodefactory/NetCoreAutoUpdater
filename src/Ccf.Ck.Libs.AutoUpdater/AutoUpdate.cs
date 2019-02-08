@@ -13,27 +13,22 @@ namespace Ccf.Ck.Libs.AutoUpdater
 {
     public class AutoUpdate
     {
-        private IAutoUpdate _AutoUpdateComponent;
-        private Version _VersionServerComponent;
-        private bool _NeedUpdate;
-        private VersionResponse _VersionResponse;
         private const string VERSION_JSON = "version.json";
         private const string AUTOUPDATER_PROCESS_EXEC = "Ccf.Ck.Libs.AutoUpdater.Process.dll";
         private const string BEARER_TOKEN_NAME = "Bearer";
 
-        public string TargetVersion
-        {
-            get
-            {
-                return _VersionResponse?.TargetVersion;
-            }
-        }
+        private readonly IAutoUpdate _AutoUpdateComponent;
+        private Version _VersionServerComponent;
+        private bool _NeedUpdate;
+        private VersionResponse _VersionResponse;
 
         public AutoUpdate(IAutoUpdate autoUpdateComponent)
         {
             _AutoUpdateComponent = autoUpdateComponent;
         }
 
+        public string TargetVersion => _VersionResponse?.TargetVersion;
+        
         public async Task<bool> CheckUpdateAvailableAsync()
         {
             //1. Get current version
